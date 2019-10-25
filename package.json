@@ -1,0 +1,29 @@
+{
+	"name": "syntax-clip",
+	"version": "1.0.0",
+	"description": "Syntax highlight code in your clipboard (macOS only).",
+	"main": "index.js",
+	"bin": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jhuckaby/syntax-clip.git"
+	},
+	"keywords": [
+		"syntax",
+		"highlight",
+		"clipboard",
+		"macos"
+	],
+	"author": "Joseph Huckaby",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/jhuckaby/syntax-clip/issues"
+	},
+	"homepage": "https://github.com/jhuckaby/syntax-clip#readme",
+	"dependencies": {
+		"highlight.js": "9.15.10",
+		"inline-css": "2.4.2",
+		"pixl-args": "^1.0.0",
+		"strip-indent": "3.0.0"
+	}
+}
